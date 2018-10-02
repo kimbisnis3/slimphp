@@ -79,7 +79,7 @@ class App
         if (!$container instanceof ContainerInterface) {
             throw new InvalidArgumentException('Expected a ContainerInterface');
         }
-        $this->container = $container;
+        $this->container = $container; 
     }
 
     /**
