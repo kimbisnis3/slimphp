@@ -74,7 +74,7 @@ class App
     public function __construct($container = [])
     {
         if (is_array($container)) {
-            $container = new Container($container);
+            $container = new Container($container); 
         }
         if (!$container instanceof ContainerInterface) {
             throw new InvalidArgumentException('Expected a ContainerInterface');
