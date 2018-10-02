@@ -36,7 +36,7 @@ use Slim\Tests\Mocks\MockAction;
  */
 function header($value, $replace = true)
 {
-    \Slim\header($value, $replace);
+    \Slim\header($value, $replace); 
 }
 
 class AppTest extends \PHPUnit_Framework_TestCase
